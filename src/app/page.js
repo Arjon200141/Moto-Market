@@ -5,7 +5,6 @@ export default function Home() {
   return (
     <div className="playfair">
       <Homepage></Homepage>
-      ggfjk,j
     </div>
   );
 }
