@@ -1,5 +1,6 @@
 import About from "./About";
 import Banner from "./Banner";
+import Faq from "./Faq";
 import Popular from "./Popular";
 import Upcoming from "./Upcoming";
 
@@ -10,6 +11,7 @@ const Homepage = () => {
             <About></About>
             <Upcoming></Upcoming>
             <Popular></Popular>
+            <Faq></Faq>
         </div>
     );
 };
