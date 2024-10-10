@@ -28,7 +28,7 @@ const Navbar = () => {
 
     ]
     return (
-        <div className="bg-slate-200">
+        <div className="bg-black text-yellow-500/70 ">
             <div className=" navbar container mx-auto">
                 <div className="navbar-start">
                     <Link href={'/'}>
@@ -38,7 +38,7 @@ const Navbar = () => {
                 <div className="navbar-center flex items-center space-x-6 text-xl ">
                     {
                         navItems.map((item) =>
-                            <Link className='font-semibold hover:text-primary duration-300' href={item.path} key={item.path}>
+                            <Link className='font-semibold hover:text-white duration-300' href={item.path} key={item.path}>
                                 {item.title}
                             </Link>
                         )
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <div className="navbar-end flex items-center space-x-4">
                      <div ><IoCartOutline className="text-2xl"/></div>
                      <div ><IoSearchSharp className="text-2xl"/></div>
-                    <a className="btn btn-outline btn-primary px-6 text-xl font-semibold">Bookings</a>
+                    <a className="btn btn-outline text-yellow-500/70 hover:text-black hover:bg-yellow-500/70 px-6 text-xl font-semibold">Bookings</a>
                 </div>
             </div>
         </div>

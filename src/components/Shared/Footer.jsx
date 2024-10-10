@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-4  text-base-content">
+            <footer className="footer p-4  text-yellow-500/70">
                 <aside className="ml-8">
                     <div className="flex gap-4 items-center mt-6">
                         <img src="https://i.ibb.co.com/Z1XmXj6/199506217.png" alt="" className="h-16 w-48 ml-12 rounded-2xl" />
@@ -44,8 +44,8 @@ const Footer = () => {
                     </div>
                 </nav>
             </footer>
-            <hr />
-            <footer className="footer footer-center text-lg  p-2 text-base-content">
+            <div className="divider border-yellow-500/70 h-[1px] bg-yellow-500/35 m-0"></div>
+            <footer className="footer footer-center text-lg  p-2 text-yellow-500/70">
                 <aside>
                     <p>Copyright © 2024 - All right reserved by MOTO MARKET</p>
                 </aside>
