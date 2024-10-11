@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { bikes } from '../../../lib/bikes';
 import BikeCards from '../cards/BikeCards';
 
@@ -20,9 +21,11 @@ const Popular = () => {
                         ))
                 }
             </div>
+            <Link href={'/bikes'}>
             <div className="flex justify-center mt-6">
                 <button className="btn text-xl px-6 btn-outline text-yellow-500/70">Explore Additional Bikes</button>
             </div>
+            </Link>
         </div>
     );
 };
