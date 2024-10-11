@@ -8,6 +8,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import Link from 'next/link';
 
 const bannerDetails = [
     {
@@ -75,7 +76,9 @@ function Banner() {
                                             {banner.description}
                                         </p>
                                         <div className="flex gap-10 justify-center">
+                                            <Link href={'/bikes'}>
                                             <button className="text-xl font-semibold border-none px-6 btn bg-yellow-500/70">Discover More</button>
+                                            </Link>
                                             <button className="text-xl font-semibold hover:bg-transparent px-6 btn btn-outline text-white">Upcoming Bikes</button>
                                         </div>
                                     </div>
